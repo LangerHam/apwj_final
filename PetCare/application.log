@@ -1,0 +1,99 @@
+2025-07-01T22:14:41.644+06:00  INFO 19432 --- [PetCare] [main] com.PetCare.PetCareApplication           : Starting PetCareApplication using Java 24 with PID 19432 (D:\AIUB NOTES\10th semester\Advanced Java\Lab Codes\Project\PetCare\target\classes started by User in D:\AIUB NOTES\10th semester\Advanced Java\Lab Codes\Project\PetCare)
+2025-07-01T22:14:41.646+06:00  INFO 19432 --- [PetCare] [main] com.PetCare.PetCareApplication           : No active profile set, falling back to 1 default profile: "default"
+2025-07-01T22:14:42.416+06:00  INFO 19432 --- [PetCare] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2025-07-01T22:14:42.436+06:00  INFO 19432 --- [PetCare] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14 ms. Found 0 JDBC repository interfaces.
+2025-07-01T22:14:43.360+06:00  INFO 19432 --- [PetCare] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-07-01T22:14:43.377+06:00  INFO 19432 --- [PetCare] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-07-01T22:14:43.377+06:00  INFO 19432 --- [PetCare] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-07-01T22:14:43.558+06:00  INFO 19432 --- [PetCare] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-07-01T22:14:43.558+06:00  INFO 19432 --- [PetCare] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1858 ms
+2025-07-01T22:14:43.938+06:00  WARN 19432 --- [PetCare] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'appointmentApi': Unsatisfied dependency expressed through field 'appointmentService': Error creating bean with name 'appointmentService': Unsatisfied dependency expressed through field 'emailService': Error creating bean with name 'emailService': Unsatisfied dependency expressed through field 'mailSender': No qualifying bean of type 'org.springframework.mail.javamail.JavaMailSender' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2025-07-01T22:14:43.943+06:00  INFO 19432 --- [PetCare] [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-07-01T22:14:44.097+06:00  INFO 19432 --- [PetCare] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-07-01T22:14:44.117+06:00 ERROR 19432 --- [PetCare] [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field mailSender in com.PetCare.Service.EmailService required a bean of type 'org.springframework.mail.javamail.JavaMailSender' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.mail.javamail.JavaMailSender' in your configuration.
+
+2025-07-01T22:22:26.100+06:00  INFO 2992 --- [PetCare] [main] com.PetCare.PetCareApplication           : Starting PetCareApplication using Java 24 with PID 2992 (D:\AIUB NOTES\10th semester\Advanced Java\Lab Codes\Project\PetCare\target\classes started by User in D:\AIUB NOTES\10th semester\Advanced Java\Lab Codes\Project\PetCare)
+2025-07-01T22:22:26.102+06:00  INFO 2992 --- [PetCare] [main] com.PetCare.PetCareApplication           : No active profile set, falling back to 1 default profile: "default"
+2025-07-01T22:22:26.630+06:00  INFO 2992 --- [PetCare] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2025-07-01T22:22:26.652+06:00  INFO 2992 --- [PetCare] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14 ms. Found 0 JDBC repository interfaces.
+2025-07-01T22:22:27.204+06:00  INFO 2992 --- [PetCare] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-07-01T22:22:27.216+06:00  INFO 2992 --- [PetCare] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-07-01T22:22:27.216+06:00  INFO 2992 --- [PetCare] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-07-01T22:22:27.260+06:00  INFO 2992 --- [PetCare] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-07-01T22:22:27.261+06:00  INFO 2992 --- [PetCare] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1116 ms
+2025-07-01T22:22:27.528+06:00  INFO 2992 --- [PetCare] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsServices
+2025-07-01T22:22:28.036+06:00  INFO 2992 --- [PetCare] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-07-01T22:22:28.211+06:00  INFO 2992 --- [PetCare] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@645dc557
+2025-07-01T22:22:28.212+06:00  INFO 2992 --- [PetCare] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-07-01T22:22:28.436+06:00  INFO 2992 --- [PetCare] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-07-01T22:22:28.441+06:00  INFO 2992 --- [PetCare] [main] com.PetCare.PetCareApplication           : Started PetCareApplication in 2.714 seconds (process running for 2.993)
+2025-07-01T22:22:52.236+06:00  INFO 2992 --- [PetCare] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-01T22:22:52.237+06:00  INFO 2992 --- [PetCare] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-07-01T22:22:52.238+06:00  INFO 2992 --- [PetCare] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-07-01T22:23:52.041+06:00  WARN 2992 --- [PetCare] [http-nio-8080-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+2025-07-01T22:31:51.024+06:00  INFO 2992 --- [PetCare] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-01T22:31:51.030+06:00  INFO 2992 --- [PetCare] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-07-01T22:31:51.034+06:00  INFO 2992 --- [PetCare] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-07-01T22:31:51.040+06:00  INFO 2992 --- [PetCare] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-07-01T22:31:56.627+06:00  INFO 2536 --- [PetCare] [main] com.PetCare.PetCareApplication           : Starting PetCareApplication using Java 24 with PID 2536 (D:\AIUB NOTES\10th semester\Advanced Java\Lab Codes\Project\PetCare\target\classes started by User in D:\AIUB NOTES\10th semester\Advanced Java\Lab Codes\Project\PetCare)
+2025-07-01T22:31:56.628+06:00  INFO 2536 --- [PetCare] [main] com.PetCare.PetCareApplication           : No active profile set, falling back to 1 default profile: "default"
+2025-07-01T22:31:57.188+06:00  INFO 2536 --- [PetCare] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2025-07-01T22:31:57.207+06:00  INFO 2536 --- [PetCare] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14 ms. Found 0 JDBC repository interfaces.
+2025-07-01T22:31:57.718+06:00  INFO 2536 --- [PetCare] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-07-01T22:31:57.728+06:00  INFO 2536 --- [PetCare] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-07-01T22:31:57.728+06:00  INFO 2536 --- [PetCare] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-07-01T22:31:57.768+06:00  INFO 2536 --- [PetCare] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-07-01T22:31:57.768+06:00  INFO 2536 --- [PetCare] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1093 ms
+2025-07-01T22:31:58.019+06:00  INFO 2536 --- [PetCare] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsServices
+2025-07-01T22:31:58.438+06:00  INFO 2536 --- [PetCare] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-07-01T22:31:58.584+06:00  INFO 2536 --- [PetCare] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@56c42964
+2025-07-01T22:31:58.586+06:00  INFO 2536 --- [PetCare] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-07-01T22:31:58.779+06:00  INFO 2536 --- [PetCare] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-07-01T22:31:58.785+06:00  INFO 2536 --- [PetCare] [main] com.PetCare.PetCareApplication           : Started PetCareApplication in 2.521 seconds (process running for 2.804)
+2025-07-01T22:32:03.425+06:00  INFO 2536 --- [PetCare] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-01T22:32:03.425+06:00  INFO 2536 --- [PetCare] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-07-01T22:32:03.426+06:00  INFO 2536 --- [PetCare] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-07-01T22:34:46.881+06:00  INFO 2536 --- [PetCare] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-01T22:34:46.886+06:00  INFO 2536 --- [PetCare] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-07-01T22:34:46.890+06:00  INFO 2536 --- [PetCare] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-07-01T22:34:46.895+06:00  INFO 2536 --- [PetCare] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-07-01T22:35:14.892+06:00  INFO 4856 --- [PetCare] [main] com.PetCare.PetCareApplication           : Starting PetCareApplication using Java 24 with PID 4856 (D:\AIUB NOTES\10th semester\Advanced Java\Lab Codes\Project\PetCare\target\classes started by User in D:\AIUB NOTES\10th semester\Advanced Java\Lab Codes\Project\PetCare)
+2025-07-01T22:35:14.895+06:00  INFO 4856 --- [PetCare] [main] com.PetCare.PetCareApplication           : No active profile set, falling back to 1 default profile: "default"
+2025-07-01T22:35:15.451+06:00  INFO 4856 --- [PetCare] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2025-07-01T22:35:15.470+06:00  INFO 4856 --- [PetCare] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13 ms. Found 0 JDBC repository interfaces.
+2025-07-01T22:35:16.014+06:00  INFO 4856 --- [PetCare] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-07-01T22:35:16.025+06:00  INFO 4856 --- [PetCare] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-07-01T22:35:16.026+06:00  INFO 4856 --- [PetCare] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-07-01T22:35:16.078+06:00  INFO 4856 --- [PetCare] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-07-01T22:35:16.080+06:00  INFO 4856 --- [PetCare] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1130 ms
+2025-07-01T22:35:16.340+06:00  INFO 4856 --- [PetCare] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsServices
+2025-07-01T22:35:16.768+06:00  INFO 4856 --- [PetCare] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-07-01T22:35:16.911+06:00  INFO 4856 --- [PetCare] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@645dc557
+2025-07-01T22:35:16.912+06:00  INFO 4856 --- [PetCare] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-07-01T22:35:17.109+06:00  INFO 4856 --- [PetCare] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-07-01T22:35:17.116+06:00  INFO 4856 --- [PetCare] [main] com.PetCare.PetCareApplication           : Started PetCareApplication in 2.6 seconds (process running for 2.88)
+2025-07-01T22:37:48.463+06:00  INFO 4856 --- [PetCare] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-01T22:37:48.464+06:00  INFO 4856 --- [PetCare] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-07-01T22:37:48.465+06:00  INFO 4856 --- [PetCare] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-07-01T22:45:33.308+06:00  INFO 4856 --- [PetCare] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-01T22:45:33.312+06:00  INFO 4856 --- [PetCare] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-07-01T22:45:33.315+06:00  INFO 4856 --- [PetCare] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-07-01T22:45:33.321+06:00  INFO 4856 --- [PetCare] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

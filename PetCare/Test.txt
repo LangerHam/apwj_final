@@ -1,0 +1,16 @@
+{
+    "employeeId": 2,
+    "firstName": "Test",
+    "lastName": "New",
+    "role": "VET",
+    "phone": "1234567890",
+    "email": "vet@petcare.com",
+    "hireDate": "2024-01-15",
+    "password": "givepass"
+}
+
+{
+    "email": "vet@petcare.com",
+    "password": "givepass
+}
+
