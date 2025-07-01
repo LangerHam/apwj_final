@@ -1,16 +1,12 @@
-# Build artifacts
 target/
 *.jar
 *.war
 *.ear
 
-# Log files
 *.log
 
-# IDE settings
 .idea/
 *.iml
 .vscode/
 
-# Maven wrapper
 .mvn/
